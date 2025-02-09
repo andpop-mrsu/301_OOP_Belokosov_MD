@@ -2,7 +2,8 @@
 
 use Task02\Fraction;
 
-function runTest(){
+function runTest()
+{
     // String representation test
     $m1 = new Fraction(4, 8);
     $correct = "1/2";
@@ -59,5 +60,4 @@ function runTest(){
     } else {
         echo "Тест НЕ ПРОЙДЕН" . PHP_EOL;
     }
-
 }
