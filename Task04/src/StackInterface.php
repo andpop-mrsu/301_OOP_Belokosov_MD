@@ -4,10 +4,10 @@ namespace App;
 
 interface StackInterface
 {
-    function push(...$elems);
-    function pop();
-    function top();
-    function isEmpty();
-    function copy();
-    function __toString();
+    public function push(...$elems);
+    public function pop();
+    public function top();
+    public function isEmpty();
+    public function copy();
+    public function __toString();
 }
